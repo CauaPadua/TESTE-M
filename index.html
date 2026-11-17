@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8eee9">
+  <meta name="description" content="Uma pequena surpresa feita com carinho para Beatriz.">
+  <title>Para minha pessoa favorita ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-screen" id="loginScreen">
+    <div class="login-card">
+      <span class="eyebrow">UMA SURPRESA FEITA COM CARINHO</span>
+      <div class="envelope" aria-hidden="true">💌</div>
+      <h1>Para minha<br><em>pessoa favorita</em></h1>
+      <p>Oi, princesa. Preparei uma coisinha para você.</p>
+      <p class="question">Você é a minha…</p>
+      <form id="loginForm">
+        <label class="sr-only" for="passwordInput">Sua resposta</label>
+        <input id="passwordInput" type="password" placeholder="Digite sua resposta" autocomplete="off" required>
+        <button class="button" type="submit">Abrir minha cartinha <span>♡</span></button>
+      </form>
+      <p class="hint">Dica: é assim que eu te chamo quase todos os dias. 👑</p>
+      <p class="error" id="error" role="status" aria-live="polite"></p>
+    </div>
+    <span class="login-note">feito especialmente para você</span>
+  </div>
+
+  <main id="mainContent" class="hidden">
+    <header class="hero">
+      <div class="hero-shade"></div>
+      <nav class="topline"><span>UMA CARTA PARA VOCÊ</span><span>♡</span></nav>
+      <div class="hero-content">
+        <span class="eyebrow light">COM TODO O MEU CARINHO</span>
+        <h1>Beatriz<span>.</span></h1>
+        <p>Não é uma data especial.<br>Eu só queria deixar seu dia um pouquinho mais bonito.</p>
+        <a class="scroll-link" href="#comeco">Continue lendo <span>↓</span></a>
+      </div>
+      <div class="hero-caption">uma pequena lembrança, só sua</div>
+    </header>
+
+    <section class="intro section" id="comeco">
+      <div class="section-label">01 — COMO TUDO COMEÇOU</div>
+      <div class="intro-grid">
+        <div class="intro-photo"><img src="fotos/foto3.jpg" alt="Uma lembrança especial"></div>
+        <div class="intro-copy">
+          <span class="script">Que sorte a minha…</span>
+          <h2>Uma coincidência<br>muito bonita.</h2>
+          <p>Engraçado pensar que tudo começou por acaso. A gente morava perto, você aceitou me encontrar e eu apareci levando chocolates.</p>
+          <p>Naquele momento parecia só um encontro. Hoje eu percebo que foi o começo de uma das coisas mais bonitas que aconteceram comigo.</p>
+          <span class="tiny-heart">♡</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="admire section soft">
+      <div class="section-label">02 — COISAS QUE EU ADMIRO</div>
+      <div class="center-heading"><span class="script">Se eu pudesse escolher…</span><h2>Eu escolheria conhecer<br>você de novo.</h2></div>
+      <div class="qualities">
+        <article class="quality"><span>01</span><h3>Seu sorriso</h3><p>Existem muitas coisas bonitas no mundo. Mas seu sorriso continua sendo uma das minhas favoritas.</p></article>
+        <article class="quality"><span>02</span><h3>Seus cabelos</h3><p>Sim, eu reparo. E continuo achando eles lindos.</p></article>
+        <article class="quality"><span>03</span><h3>Seu jeito</h3><p>Você consegue transformar momentos comuns em lembranças especiais.</p></article>
+        <article class="quality"><span>04</span><h3>Você inteira</h3><p>Não existe uma única coisa que eu admire. Eu admiro você por ser exatamente quem é.</p></article>
+      </div>
+    </section>
+
+    <section class="memories section">
+      <div class="section-label">03 — ALGUNS REGISTROS</div>
+      <div class="center-heading"><span class="script">Para guardar com carinho</span><h2>Nossos momentos.</h2><p>Algumas fotos, muitos motivos para sorrir.</p></div>
+      <div class="gallery">
+        <figure class="photo-card photo-tall"><img src="fotos/foto1.jpg" alt="Foto de um momento especial"><figcaption>Acho que nunca vou cansar de olhar para você.</figcaption></figure>
+        <figure class="photo-card photo-low"><img src="fotos/foto2.jpg" alt="Outra lembrança especial"><figcaption>Alguns dos meus momentos favoritos têm você neles.</figcaption></figure>
+        <figure class="photo-card photo-tall"><img src="fotos/foto3.jpg" alt="Mais uma lembrança"><figcaption>Uma foto simples, de alguém muito especial.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="notes section soft">
+      <div class="section-label">04 — QUANDO VOCÊ PRECISAR</div>
+      <div class="center-heading"><span class="script">Abra uma cartinha</span><h2>Algumas coisas que<br>quero que você lembre.</h2></div>
+      <div class="letters">
+        <details><summary><span>♡</span> Abra quando estiver triste <b>＋</b></summary><div class="letter-body"><p>Você não precisa ser forte o tempo inteiro. E nunca precisa enfrentar tudo sozinha. Espero conseguir ser alguém com quem você possa contar, inclusive nos dias difíceis.</p></div></details>
+        <details><summary><span>♡</span> Abra quando sentir saudade <b>＋</b></summary><div class="letter-body"><p>Eu também sinto. Mais do que você imagina. Até a próxima vez que a gente se encontrar, guarda um abraço meu aí.</p></div></details>
+        <details><summary><span>♡</span> Abra quando duvidar de si mesma <b>＋</b></summary><div class="letter-body"><p>Talvez você não enxergue tudo o que eu vejo, mas eu vejo uma mulher incrível. Não diminua sua luz por causa de um dia difícil.</p></div></details>
+        <details><summary><span>♡</span> Abra quando quiser sorrir <b>＋</b></summary><div class="letter-body"><p>Obrigado por ter aceitado aquele encontro. E obrigado por ter aceitado os chocolates também. Ainda bem que eu tive coragem de te chamar. 🍫</p></div></details>
+        <details><summary><span>♡</span> Abra quando precisar lembrar <b>＋</b></summary><div class="letter-body"><p>Você é importante. Sua presença faz diferença e eu fico feliz por ter a oportunidade de compartilhar momentos com você.</p></div></details>
+      </div>
+    </section>
+
+    <section class="promise section">
+      <span class="script">Uma coisa que eu quero que você saiba</span>
+      <h2>Não prometo dias<br>perfeitos.</h2>
+      <p>Mas quero estar por perto nos dias bons, nos dias leves e também naqueles em que tudo parecer um pouco mais difícil. Quero continuar criando lembranças, dividindo risadas e fazendo o possível para te ver feliz.</p>
+      <span class="promise-mark">♡</span>
+    </section>
+
+    <section class="secret section">
+      <div class="section-label">05 — UM PEQUENO SEGREDO</div>
+      <button class="star-button" id="secretButton" type="button" aria-expanded="false" aria-controls="secretMessage">✦</button>
+      <p class="secret-invite">Tem uma coisinha escondida aqui. Toque na estrela.</p>
+      <div id="secretMessage" class="secret-message" hidden><span class="script">Ei, Beatriz…</span><h2>Entre tantas coincidências,<br>conhecer você foi a minha favorita. ❤️</h2></div>
+    </section>
+
+    <footer class="final section">
+      <img src="fotos/foto1.jpg" alt="Beatriz" class="final-photo">
+      <span class="script">E, para terminar…</span>
+      <h2>Queria só te lembrar<br>do quanto você é especial.</h2>
+      <div class="final-letter"><p>Talvez eu nem sempre encontre as palavras certas ou consiga mostrar tudo o que sinto. Mas espero que esta cartinha consiga fazer isso um pouquinho por mim.</p><p>Obrigado pelos momentos, pela sua companhia, pelo seu sorriso e por ser você.</p><p>Eu amo seu sorriso, seus cabelos, seu jeito e a pessoa incrível que você é.</p><strong>Eu amo você. ❤️</strong><p class="signature">Com todo meu carinho,<br><b>Cauã</b></p></div>
+      <div class="footer-end">feito com carinho, especialmente para você <span>♡</span></div>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
